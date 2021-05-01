@@ -1,70 +1,15 @@
-## Summary
 
-This is the Android SDK of Adjust™. You can read more about Adjust™ at [adjust.com].
-
-Read this in other languages: [English][en-readme], [中文][zh-readme], [日本語][ja-readme], [한국어][ko-readme].
-
-## Table of contents
-
-### Quick start
-
-   * [Example apps](#qs-example-apps)
-   * [Getting started](#qs-getting-started)
-      * [Add the SDK to your project](#qs-add-sdk)
-      * [Add Google Play Services](#qs-gps)
-      * [Add permissions](#qs-permissions)
-      * [Proguard settings](#qs-proguard)
-      * [Install referrer](#qs-install-referrer)
-         * [Google Play Referrer API](#qs-gpr-api)
-         * [Google Play Store intent](#qs-gps-intent)
-         * [Huawei Referrer API](#qs-huawei-referrer-api)
-   * [Integrate the SDK into your app](#qs-integrate-sdk)
-      * [Basic setup](#qs-basic-setup)
-         * [Native App SDK](#qs-basic-setup-native)
-         * [Web Views SDK](#qs-basic-setup-web)
-      * [Session tracking](#qs-session-tracking)
-         * [API level 14 and higher](#qs-session-tracking-api-14)
-         * [API level between 9 and 13](#qs-session-tracking-api-9)
-      * [SDK signature](#qs-sdk-signature)
-      * [Adjust logging](#qs-adjust-logging)
-      * [Build your app](#qs-build-the-app)
-
-### Deep linking
-
-   * [Deep linking overview](#dl)
-   * [Standard deep linking scenario](#dl-standard)
-   * [Deferred deep linking scenario](#dl-deferred)
-   * [Reattribution via deep links](#dl-reattribution)
-
-### Event tracking
-
-   * [Track event](#et-tracking)
-   * [Track revenue](#et-revenue)
-   * [Revenue deduplication](#et-revenue-deduplication)
-   * [In-app purchase verification](#et-purchase-verification)
-
-### Custom parameters
-
-   * [Custom parameters overview](#cp)
-   * [Event parameters](#cp-event-parameters)
-      * [Event callback parameters](#cp-event-callback-parameters)
-      * [Event partner parameters](#cp-event-partner-parameters)
-      * [Event callback identifier](#cp-event-callback-id)
-   * [Session parameters](#cp-session-parameters)
-      * [Session callback parameters](#cp-session-callback-parameters)
-      * [Session partner parameters](#cp-session-partner-parameters)
-      * [Delay start](#cp-delay-start)
 
 ### Additional features
 
    * [Push token (uninstall tracking)](#af-push-token)
    * [Attribution callback](#af-attribution-callback)
    * [Ad revenue tracking](#af-ad-revenue)
-   * [Subscription tracking](#af-subscriptions)
+
    * [Session and event callbacks](#af-session-event-callbacks)
    * [User attribution](#af-user-attribution)
    * [Device IDs](#af-device-ids)
-      * [Google Play Services advertising identifier](#af-gps-adid)
+
       * [Amazon advertising identifier](#af-amazon-adid)
       * [Adjust device identifier](#af-adid)
    * [Preinstalled apps](#af-preinstalled-apps)
